@@ -1,0 +1,15 @@
+// Import Bootstrap SCSS
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Override font size and font family for headers
+h1 {
+    font-size: 60px; // Your desired font size for headers
+    font-family: 'Poppins', sans-serif; // Your desired font family for headers
+    font-weight: bold; // Set font weight to bold
+}
+
+p {
+    font-size: 16px; // Your desired font size for paragraphs
+    font-family: 'Prompt', sans-serif; // Your desired font family for paragraphs
+    font-weight: normal; // Set font weight to normal
+}
